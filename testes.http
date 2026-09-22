@@ -1,0 +1,10 @@
+### Cadastrar Tecnologia
+POST http://localhost:8080/api/technologies
+Content-Type: application/json
+
+{
+  "name": "Java"
+}
+
+### Listar Tecnologias
+GET http://localhost:8080/api/technologies
